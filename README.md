@@ -1,5 +1,6 @@
 # Mechanical Part Detection Using Improved YOLOv10 (Status: Submission)
-# 2024 International Conference on Control, Automation and Information Sciences
+
+2024 International Conference on Control, Automation and Information Sciences
 
 ![avatar](Image/VietNam_4.jpg)
 
