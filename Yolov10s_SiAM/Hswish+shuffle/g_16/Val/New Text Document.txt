@@ -1,0 +1,16 @@
+/content/Yolov10_1_1/yolov10-1.1
+/content/Yolov10_1_1/yolov10-1.1/ultralytics/nn/tasks.py:729: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(file, map_location="cpu")
+Ultralytics YOLOv8.1.34 🚀 Python-3.10.12 torch-2.4.0+cu121 CUDA:0 (Tesla T4, 15102MiB)
+YOLOv10s summary (fused): 306 layers, 8038056 parameters, 0 gradients, 24.5 GFLOPs
+Downloading https://ultralytics.com/assets/Arial.ttf to '/root/.config/Ultralytics/Arial.ttf'...
+100% 755k/755k [00:00<00:00, 24.7MB/s]
+val: Scanning /content/gdrive/MyDrive/MechanicalDataset/MechanicalParts_yolov8/test/labels.cache... 225 images, 0 backgrounds, 0 corrupt: 100% 225/225 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% 15/15 [00:17<00:00,  1.17s/it]
+                   all        225       1100      0.919      0.835      0.908      0.756
+               Bearing        225        206      0.883      0.811      0.909       0.73
+                  Bolt        225        326      0.936      0.857      0.901      0.756
+                  Gear        225        319      0.904      0.724      0.842      0.642
+                   Nut        225        249      0.952      0.949      0.978      0.895
+Speed: 1.5ms preprocess, 13.7ms inference, 0.0ms loss, 1.4ms postprocess per image
+Results saved to /content/gdrive/MyDrive/TrainYolov10/Ketqua_sintering/val2
