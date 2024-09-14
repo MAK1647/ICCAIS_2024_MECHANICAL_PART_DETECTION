@@ -2,8 +2,7 @@
 
 2024 International Conference on Control, Automation and Information Sciences
 
-![avatar](Image/INTRODUCE.png)
-<div align=center>Figure: Comparision Results.</div>
+<center><img src="Image/INTRODUCE.png"/> 
 
 ## Introduction
 
@@ -11,7 +10,7 @@ Mechanical object detection has recently become one of the crucial parts of the 
 
 ## Proposed Yolov10 's Architecture
 
-![avatar](Image/Yolo architecture.png)
+<center><img src="Image/Yoloarchitecture.png"/> 
 
 ## Proposed M-SimAM Architecture with fine-tunning AND choose H-swish activation function
 
