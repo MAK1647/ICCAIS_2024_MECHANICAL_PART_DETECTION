@@ -7,9 +7,9 @@
 </p>
 
 ## Introduction
-
-Mechanical object detection has recently become one of the crucial parts of the industry. The merge of deep learning offers a method to detect these objects. However, the small size of mechanical objects faces a challenge of achieving high average precision. To address this issue, this paper presents an improved YOLOv10 model for mechanical part detection. A modified simple, parameter-free attention module (SimAM) is proposed to integrate into the Head component of YOLOv10 to extract the significant features for feature maps. The SimAM generates 3D weights for attention to improve the performance of small-size object detection. The proposed method is trained with the Mechanical Parts Computer Vision Project dataset and achieves a mean Average Precision (mAP) at IoU threshold 50 scores of 90.8%. The experiment result showed that the accuracy of the proposed method surpasses the original YOLOv5 by 2.6%.
-
+<p align="justify"> 
+	Mechanical object detection has recently become one of the crucial parts of the industry. The merge of deep learning offers a method to detect these objects. However, the small size of mechanical objects faces a challenge of achieving high average precision. To address this issue, this paper presents an improved YOLOv10 model for mechanical part detection. A modified simple, parameter-free attention module (SimAM) is proposed to integrate into the Head component of YOLOv10 to extract the significant features for feature maps. The SimAM generates 3D weights for attention to improve the performance of small-size object detection. The proposed method is trained with the Mechanical Parts Computer Vision Project dataset and achieves a mean Average Precision (mAP) at IoU threshold 50 scores of 90.8%. The experiment result showed that the accuracy of the proposed method surpasses the original YOLOv5 by 2.6%.
+</p>
 ## Proposed Yolov10 's Architecture
 
 <center><img src="Image/Yoloarchitecture.png"/> 
