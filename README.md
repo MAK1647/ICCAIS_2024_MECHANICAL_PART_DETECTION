@@ -3,6 +3,7 @@
 2024 International Conference on Control, Automation and Information Sciences
 
 ![avatar](Image/INTRODUCE.png)
+<div align=center>Figure: Comparision Results.</div>
 
 ## Introduction
 
