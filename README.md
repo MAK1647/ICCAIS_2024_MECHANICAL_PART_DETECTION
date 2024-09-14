@@ -18,7 +18,7 @@ Mechanical object detection has recently become one of the crucial parts of the 
 
 ![avatar](Image/M-SimAM.png)
 
-## Color Helmet and Vest (CHV)  Dataset
+## Mechanical Parts Computer Vision Project  Dataset
 
 In our experiment, we used dataset **Mechanical Parts Computer Vision Project**, which contains 2250 images, and 4 categorizes.
 
